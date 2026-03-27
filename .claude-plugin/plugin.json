@@ -1,0 +1,12 @@
+{
+  "name": "next-ssd-stack",
+  "description": "A plugin for Next.js, Supabase, Shadcn UI and Drizzle web apps.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Rishab Bahal",
+    "email": "rishabbahal@gmail.com",
+    "url": "https://github.com/rishabbahal9",
+    "license": "MIT",
+    "keywords": ["nextjs", "supabase", "shadcn", "drizzle"]
+  }
+}
