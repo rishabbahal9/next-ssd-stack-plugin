@@ -27,6 +27,27 @@ It removes repetitive scaffolding, enforces project conventions automatically, a
 
 **Prerequisites:** Claude Code CLI installed; target project is a Next.js + Supabase + Drizzle app.
 
+### Via Marketplace (Recommended)
+
+Install directly from the [tech-stack-claude-plugin-marketplace](https://github.com/rishabbahal9/tech-stack-claude-plugin-marketplace):
+
+1. Add the marketplace:
+   ```sh
+   /plugin marketplace add rishabbahal9/tech-stack-claude-plugin-marketplace
+   ```
+
+2. Install the plugin:
+   ```sh
+   /plugin install next-ssd-stack@tech-stack-claude-plugin-marketplace
+   ```
+
+3. To update the plugin later:
+   ```sh
+   /plugin marketplace update tech-stack-claude-plugin-marketplace
+   ```
+
+### Manual Installation
+
 1. Copy the `next-ssd-stack/` directory into your project root.
 2. Claude Code automatically detects `.claude-plugin/plugin.json` when started in that directory.
 3. Slash commands and agents are immediately available.
